@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../navigation/navigation.css';
 import logo from '../../assets/images/logoM1.svg'
 import banner from '../../assets/images/nextgenerationblack.svg'
-import menu from '../../assets/images/menuClose.png'
 
 class Nav extends Component {
     
@@ -10,6 +9,7 @@ class Nav extends Component {
         title: "Navigation",
         scroll: "Scroll <br />to view contents",
         menu: false,
+        menuIcon: false,
         menuTitle: "Find Our Way",
         intro: "Introduction",
         items: "Foreword <br />Acknowledgment of Contributions <br />Our Story <br /> Our Brand building convictions"
@@ -17,7 +17,8 @@ class Nav extends Component {
 
     openMenu() {
         this.setState({
-         menu: !this.state.menu  
+         menu: !this.state.menu, 
+         menuIcon: !this.state.menuIcon,
         })
     }
 
@@ -28,7 +29,8 @@ class Nav extends Component {
                 <img src={logo} alt="logo" className="logo" />
                 <img src={banner} alt="banner" className="banner" />
                 <p className="menu-text">Menu</p>
-                <img src={menu} alt="banner" className="menu" onClick={()=>this.openMenu()}/>
+                <div className={this.state.menuIcon ? 'menu-close' : 'menu'} onClick={()=>this.openMenu()}/>
+
                 <div className="scroll-view" dangerouslySetInnerHTML={{ __html: this.state.scroll}} ></div>
                 {
                     this.state.menu?

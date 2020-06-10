@@ -29,7 +29,27 @@
     height: 40px;
     left: 150px;
     position: absolute;
-    top: 400px
+    top: 400px;
+    background-image:url("../../assets/images/menuClose.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu-close {
+    width: 40px;
+    height: 40px;
+    left: 150px;
+    position: absolute;
+    top: 400px;
+    background-image:url("../../assets/images/menuCloseBtn.svg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .menu:hover {
