@@ -32,6 +32,10 @@
     top: 400px
 }
 
+.menu:hover {
+    cursor: pointer;
+}
+
 .menu-text {
     color: #ffffff;
     text-transform: uppercase;
