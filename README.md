@@ -12,5 +12,5 @@ Home <br />
 Intro <br />
 Part 1<br />
 Menu interaction <br />
-Desktop only with time limit
+Desktop and Tablet only with time limit
 

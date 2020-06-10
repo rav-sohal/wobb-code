@@ -13,7 +13,7 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                    <div className="pt-5 main-contain">
+                    <div className="pt-5 container-box">
                         <h1>{this.state.intro}</h1>
                         <div className='text-box'>
                               <h2>{this.state.welcome}</h2>

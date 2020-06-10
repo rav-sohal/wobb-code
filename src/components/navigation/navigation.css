@@ -27,7 +27,7 @@
 .menu {
     width: 40px;
     height: 40px;
-   left: 150px;
+    left: 150px;
     position: absolute;
     top: 400px
 }
@@ -84,4 +84,40 @@
     font-weight: 600;
     line-height: 28px;
     color: #000000;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .nav {
+        width: 200px;
+    }
+
+    .logo {
+        height: 190px;
+        width: 150px;
+        position: fixed;
+        top: 10px;
+        left: 25px;
+    }
+
+    .menu-text {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-left: -10px;
+        left: 30px;
+        position: absolute;
+        top: 400px
+    }
+
+    .menu {
+        left: 100px;
+    }
+
+    .scroll-view {
+        left: 25px;
+      }
+
+      .menu-div {
+        margin-left: 200px;
+    }
+
   }

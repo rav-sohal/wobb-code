@@ -37,3 +37,10 @@
     margin-left: 10px;
 }
 
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .intro {
+        padding-top: 160px;
+        padding-left: 250px;
+    }
+}
+
