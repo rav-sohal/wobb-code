@@ -7,7 +7,6 @@ import Part1 from './components/part1/part1';
 
 import ReactPageScroller from "../node_modules/react-page-scroller";
 
-
 class App extends Component {
 
   goToPage = (pageNumber) => {
@@ -24,7 +23,6 @@ class App extends Component {
       <Introduction />
       <Part1 />
       </ReactPageScroller>
-
       </div>
     );
   }

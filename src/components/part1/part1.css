@@ -7,7 +7,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 160px;
+    padding-top: 80px;
     padding-left: 400px;
 }
 
@@ -18,9 +18,9 @@
 
 .large-text {
     font-family: 'Rozha One', serif;
-    font-size: 72px;
+    font-size: 52px;
     color:  #ffffff;
-    line-height: 68px;;
+    line-height: 48px;;
 }
 
 .home-body {
@@ -34,9 +34,17 @@
     font-size: 28px;
     color:  #ffffff;
     line-height: 32px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .focus-ch {
     color: #da9031;
+}
+
+.ch-link:hover {
+    color: #ffffff;
+}
+
+.ch-link {
+    color: #ffffff;
 }

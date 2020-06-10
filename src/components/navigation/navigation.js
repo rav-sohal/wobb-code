@@ -15,7 +15,7 @@ class Nav extends Component {
         items: "Foreword <br />Acknowledgment of Contributions <br />Our Story <br /> Our Brand building convictions"
     }
 
-    alert() {
+    openMenu() {
         this.setState({
          menu: !this.state.menu  
         })
@@ -28,7 +28,7 @@ class Nav extends Component {
                 <img src={logo} alt="logo" className="logo" />
                 <img src={banner} alt="banner" className="banner" />
                 <p className="menu-text">Menu</p>
-                <img src={menu} alt="banner" className="menu" onClick={()=>this.alert()}/>
+                <img src={menu} alt="banner" className="menu" onClick={()=>this.openMenu()}/>
                 <div className="scroll-view" dangerouslySetInnerHTML={{ __html: this.state.scroll}} ></div>
                 {
                     this.state.menu?

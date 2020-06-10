@@ -20,11 +20,11 @@ class Part1 extends Component {
                         <div className='part-text-box'>
                               <p className="large-text" dangerouslySetInnerHTML={{ __html: this.state.title }} />
                               <div className="chapters">
-                              <p className="mb-4 focus-ch" dangerouslySetInnerHTML={{ __html: this.state.ch1}} />
-                              <p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch2}} />
-                              <p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch3}} />
-                              <p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch4}} />
-                              <p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch5}} />
+                              <a href="/" className="ch-link"><p className="mb-4 focus-ch" dangerouslySetInnerHTML={{ __html: this.state.ch1}} /></a>
+                              <a href="/" className="ch-link"><p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch2}} /></a>
+                              <a href="/" className="ch-link"><p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch3}} /></a>
+                              <a href="/" className="ch-link"><p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch4}} /></a>
+                              <a href="/" className="ch-link"><p className="mb-4" dangerouslySetInnerHTML={{ __html: this.state.ch5}} /></a>
                               </div>
                         </div>
                     </div>
